@@ -135,6 +135,20 @@ body{
     height: 250px;
     width: 425px;
 }
+.picBoxOne{
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.picBoxTwo{
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.playTxt{
+    display: flex;
+    justify-content: center;
+}
 /* -------------------- cat image Box css End------------ */
 
 
