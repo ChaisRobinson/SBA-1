@@ -274,14 +274,11 @@ body{
     border-radius: 5%;
 }
 
-.gnralyVid{
-    height:50px;
-    width: 50px;
+.videoCat{
+    padding-left: 35%;
+   
 }
-.embedCodeBox{
-    padding-left: 12%;
-    border-radius: 10%;
-}
+
 .videoText{
     text-align: justify;
     font-size: 22px;
