@@ -135,6 +135,7 @@ body{
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
 }
 .catOne:hover {
         transform: scale(1.2);
@@ -144,6 +145,7 @@ body{
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
 }
 .catTwo:hover {
     transform: scale(1.2);
@@ -154,6 +156,7 @@ body{
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
 }
 .catThree:hover {
     transform: scale(1.2);
@@ -163,6 +166,7 @@ body{
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
 }
 .catFour:hover {
     transform: scale(1.2);
@@ -180,22 +184,24 @@ body{
     padding-right: 20%;
     display: flex;
     justify-content: space-around;
-   
-
 }
 .playTxt{
     display: flex;
     justify-content: center;
+    background-color: black;
+    border-radius: 5%;
 }
-.playTxt:hover {
+/* .playTxt:hover {
     transform: scale(1.5);
-}
+} */
 .aboutBobo{
     text-align: justify;
     font-size: 22px;
     background-color: black;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
+    border-radius: 5%;
     
 }
 .aboutBobo:hover {
@@ -207,6 +213,8 @@ body{
     background-color: black;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
+    border-radius: 5%;
 }
 .aboutGnarly:hover {
     transform: scale(1.2);
@@ -220,6 +228,8 @@ body{
 .menuTitle{
     display: flex;
     justify-content: center;
+    background-color: black;
+    border-radius: 5%;
 }
 .menuTitle:hover {
     transform: scale(1.5);
@@ -249,6 +259,38 @@ body{
   }
 
 /* ---------------Table Css End------------------------- */
+
+
+/* ---------------Video Css ----------------------------- */
+
+
+
+
+/* ---------------Video Css End------------------------- */
+.videoTitle{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.gnralyVid{
+    height:50px;
+    width: 50px;
+}
+.embedCodeBox{
+    padding-left: 12%;
+    border-radius: 10%;
+}
+.videoText{
+    text-align: justify;
+    font-size: 22px;
+    background-color: black;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
+    margin: 1em;
+    border-radius: 5%;
+}
 
 /* --------------Footer Css----------------------------- */
 .footer-basic {
