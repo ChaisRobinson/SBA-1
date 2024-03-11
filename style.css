@@ -61,6 +61,9 @@ body{
     font-size: 100px;
     /* position: absolute; */
 }
+.scrollingTxt:hover {
+    color: yellow;
+}
 
 .scrollingTxt span{
     display: inline-block;
@@ -133,11 +136,17 @@ body{
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
 }
+.catOne:hover {
+        transform: scale(1.2);
+}
 .catTwo{
     height: 250px;
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+}
+.catTwo:hover {
+    transform: scale(1.2);
 }
 
 .catThree{
@@ -146,11 +155,17 @@ body{
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
 }
+.catThree:hover {
+    transform: scale(1.2);
+}
 .catFour{
     height: 250px;
     width: 425px;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
+}
+.catFour:hover {
+    transform: scale(1.2);
 }
 .picBoxOne{
     margin: 1em;
@@ -172,6 +187,9 @@ body{
     display: flex;
     justify-content: center;
 }
+.playTxt:hover {
+    transform: scale(1.5);
+}
 .aboutBobo{
     text-align: justify;
     font-size: 22px;
@@ -180,13 +198,18 @@ body{
     box-shadow: -4px 6px 15px 5px #000000;
     
 }
+.aboutBobo:hover {
+    transform: scale(1.2);
+}
 .aboutGnarly{
     text-align: justify;
     font-size: 22px;
     background-color: black;
-        -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
-    
+}
+.aboutGnarly:hover {
+    transform: scale(1.2);
 }
 /* -------------------- cat image Box css End------------ */
 
@@ -198,16 +221,20 @@ body{
     display: flex;
     justify-content: center;
 }
+.menuTitle:hover {
+    transform: scale(1.5);
+}
 
 .menuItems {
     font-family: 'Cheetah', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     border-collapse: collapse;
     width: 50%;
     margin-left: 25%;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
   }
+ 
 
 
   td, th {
