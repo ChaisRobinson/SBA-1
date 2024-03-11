@@ -77,10 +77,12 @@ body{
     align-items: space-between;
 }
 .boxOne{
+    background-color: black;
     border-style: groove;
     padding: 5px;
 }
 .boxTwo{
+    background-color: black;
     border-style: groove;
     width: 175px;
     padding: 5px;
@@ -99,10 +101,8 @@ body{
     margin-left: 50px;
 }
 .signUpBox{
-
     padding: 10px;
     padding-left: 500px;
-
 }
 .iconTwo{
     margin-left: 18px;
@@ -165,6 +165,11 @@ body{
 
 
 /* ---------------Table Css----------------------------- */
+
+.menuTitle{
+    display: flex;
+    justify-content: center;
+}
 
 .menuItems {
     font-family: arial, sans-serif;
