@@ -130,19 +130,27 @@ body{
 .catOne{
     height: 250px;
     width: 425px;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
 }
 .catTwo{
     height: 250px;
     width: 425px;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
 }
 
 .catThree{
     height: 250px;
     width: 425px;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
 }
 .catFour{
     height: 250px;
     width: 425px;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
 }
 .picBoxOne{
     margin: 1em;
@@ -157,6 +165,8 @@ body{
     padding-right: 20%;
     display: flex;
     justify-content: space-around;
+   
+
 }
 .playTxt{
     display: flex;
@@ -166,12 +176,16 @@ body{
     text-align: justify;
     font-size: 22px;
     background-color: black;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
     
 }
 .aboutGnarly{
     text-align: justify;
     font-size: 22px;
     background-color: black;
+        -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
     
 }
 /* -------------------- cat image Box css End------------ */
@@ -191,6 +205,8 @@ body{
     border-collapse: collapse;
     width: 50%;
     margin-left: 25%;
+    -webkit-box-shadow: -4px 6px 15px 5px #000000; 
+    box-shadow: -4px 6px 15px 5px #000000;
   }
 
 
