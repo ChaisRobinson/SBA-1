@@ -257,19 +257,27 @@ body{
 .menuTitle:hover {
     transform: scale(1.5);
 }
+.menuBox{
+    display: flex;
+    justify-content: space-between;
+}
+.boboGif{
+    height: 250px;
+    width: 150px;
+}
 
 .menuItems {
     font-family: 'Cheetah', sans-serif;
     font-size: 25px;
     border-collapse: collapse;
     width: 50%;
-    margin-left: 25%;
     -webkit-box-shadow: -4px 6px 15px 5px #000000; 
     box-shadow: -4px 6px 15px 5px #000000;
   }
- 
-
-
+ .gnarWalk{
+    height: 250px;
+    width: 150px;
+ }
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
